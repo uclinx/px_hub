@@ -912,8 +912,8 @@ function RenderContent()
                         beam.Attachment0 = playerAttachment
                         beam.Attachment1 = plotAttachment
                         beam.FaceCamera = true
-                        beam.Width0 = 1.5
-                        beam.Width1 = 1.5
+                        beam.Width0 = 0.75
+                        beam.Width1 = 0.75
                         beam.Color = ColorSequence.new({
                             ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
                             ColorSequenceKeypoint.new(0.17, Color3.fromRGB(255, 165, 0)),
@@ -1089,8 +1089,8 @@ function RenderContent()
                     espBeam.Attachment0 = playerAtt
                     espBeam.Attachment1 = targetAtt
                     espBeam.FaceCamera = true
-                    espBeam.Width0 = 2
-                    espBeam.Width1 = 2
+                    espBeam.Width0 = 1
+                    espBeam.Width1 = 1
                     espBeam.Color = ColorSequence.new(Color3.fromRGB(255, 255, 255))
                     espBeam.Transparency = NumberSequence.new(0)
                     espBeam.LightEmission = 3
